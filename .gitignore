@@ -1,0 +1,31 @@
+# Dados e artefatos locais
+data/
+dados/
+resultados/
+*.parquet
+*.feather
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.pickle
+*.csv
+*.xlsx
+*.xls
+*.7z
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ambientes e segredos
+.env
+.env.*
+venv/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
