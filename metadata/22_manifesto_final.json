@@ -1,0 +1,34 @@
+{
+  "Base": "RAIS_BASE_MODELO_FINAL_V3",
+  "Modelo": "Random Forest",
+  "Treino": "2020-2023",
+  "Validacao": 2024,
+  "Avaliacao_temporal_posterior": 2025,
+  "Threshold": 0.7253175377845764,
+  "Criterio_threshold": "Maior F1 em 2024",
+  "Alpha_municipal": 1000.0,
+  "Preditores_numericos": [
+    "Idade",
+    "Qtd_horas_contratuais",
+    "Tempo_emprego_meses",
+    "Risco_historico_municipio",
+    "Log_n_historico_municipio"
+  ],
+  "Preditores_categoricos": [
+    "UF",
+    "Familia_CBO",
+    "Sexo_codigo",
+    "Tipo_vinculo_macro",
+    "Natureza_macro",
+    "Tamanho_estabelecimento_codigo",
+    "Indicador_deficiencia_codigo"
+  ],
+  "Risco_municipal_temporal": true,
+  "Municipio_direto": false,
+  "Dummies_municipais": false,
+  "Capital_Interior": false,
+  "SHAP_amostra": 10000,
+  "SHAP_bootstrap": 200,
+  "Ranking_min_N": 500,
+  "Random_state": 42
+}
